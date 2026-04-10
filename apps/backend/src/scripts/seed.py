@@ -21,8 +21,9 @@ Funcionario = [
 
 
 Produto = [
-    {"id": 1, "nome_hotel": "Eco Pousada Beira Rio", "estrelas": 4, "valor_diaria": 350.0, "cidade": "Iporanga"},
-    {"id": 2, "nome_hotel": "Porto Preguiças Resort", "estrelas": 5, "valor_diaria": 890.0, "cidade": "Barreirinhas"}
+    {"id": 1, "name": "Refrigerante Coca-Cola", "price": 6, "Estoque": 35},
+    {"id": 2, "name": "Chocolate Nestle Meio-Amargo", "price": 15, "Estoque": 25 },
+    {"id": 3, "name": "Chiclete Trident Melancia", "price": 5, "Estoque": 15 }
 ]
 
 def seed():

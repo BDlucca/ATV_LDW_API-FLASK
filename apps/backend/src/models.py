@@ -12,12 +12,12 @@ class Funcionario(db.Model):
 
 
 class Pedido(db.Model):
-    __tablename__ = 'pedido'
+    __tablename__ = 'Pedido'
     id = db.Column(db.Integer, primary_key=True)
     number = db.Column(db.Integer, nullable=False)
 
-    # Relacionamento: um hotel tem várias reservas
-    # bookings = db.relationship('Booking', backref='hotel', cascade='all, delete-orphan')
+    
+    Pedido = db.relationship('Pedido', backref='Produto', cascade='all, delete-orphan')
 
     def to_dict(self):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}

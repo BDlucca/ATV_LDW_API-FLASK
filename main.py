@@ -1,5 +1,5 @@
 def main():
-    print("Hello from atv-ldw-api-flask!")
+    print("Hello from ATV_LDW_API-FLASK!")
 
 
 if __name__ == "__main__":
