@@ -7,7 +7,7 @@ Framework: Flask
 
 Documentação: Flasgger (Swagger)
 
-ORM/Banco de Dados: SQLAlchemy / SQLite
+Banco de Dados: SQLAlchemy / SQLite
 
 Containerização: Docker & Docker Compose
 
