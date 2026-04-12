@@ -1,8 +1,7 @@
-# ATV_LDW_API-FLASK
-☕ Cafeteria
+##☕ Cafeteria
 API REST para gerenciamento completo de uma cafeteria, incluindo controle de clientes, funcionários, produtos e pedidos. O projeto utiliza uma arquitetura modular com Blueprints e documentação automatizada com Swagger.
 
-🛠️ Tecnologias Principais
+##🛠️ Tecnologias Principais
 Framework: Flask
 
 - Documentação: Flasgger (Swagger)
@@ -13,7 +12,7 @@ Framework: Flask
 
 - Ambiente: python-dotenv
 
-🚀 Como Executar o projeto
+##🚀 Como Executar o projeto
 A maneira mais rápida de rodar o projeto é utilizando o Docker, que já configura todo o ambiente necessário.
 
 Passo a Passo
@@ -42,7 +41,7 @@ API: http://localhost:5000
 
 - Swagger (Documentação): http://localhost:5000/apidocs/
 
-📖 Documentação da API
+##📖 Documentação da API
 A API foi documentada seguindo a especificação Swagger 2.0. Os principais recursos gerenciados são:
 
 Clientes: GET/POST/PUT/DELETE em /api/cliente
