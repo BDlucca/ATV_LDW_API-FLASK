@@ -18,13 +18,13 @@ def get_all():
         description: Lista de produtos
         schema:
           id: 
-            type: int
+          type: int
           description: 
-            type: str
+          type: str
           price: 
-            type: int
+          type: int
           estoque: 
-            type: float
+          type: float
       404:
         description: Produto não encontrado
     """
@@ -67,7 +67,7 @@ def create():
     Criar um novo produto
     ---
     tags:
-      - Produtos
+      - Produto
     parameters:
       - in: body
         name: body
@@ -95,7 +95,7 @@ def update(id):
     Atualizar um produto existente
     ---
     tags:
-      - Produtos
+      - Produto
     parameters:
       - in: path
         name: id
@@ -139,13 +139,13 @@ def delete(id):
     parameters:
       - in: path
         name: id
-          type: integer
+        type: integer
         description: 
-            type: str
+          type: str
           price: 
-            type: int
+          type: int
           estoque: 
-            type: float
+          type: float
         description: ID do produto a ser removido
     responses:
       200:

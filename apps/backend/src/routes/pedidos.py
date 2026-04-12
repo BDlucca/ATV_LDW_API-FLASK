@@ -18,9 +18,9 @@ def get_all():
         description: Lista de pedidos
         schema:
           id: 
-            type: int
+          type: int
           number: 
-            type: int
+          type: int
       404:
         description: Cliente não encontrada
     """
@@ -63,7 +63,7 @@ def create():
     Criar um novo pedido
     ---
     tags:
-      - Pedidos
+      - Pedido
     parameters:
       - in: body
         name: body
@@ -91,7 +91,7 @@ def update(id):
     Atualizar um pedido existente
     ---
     tags:
-      - Pedidos
+      - Pedido
     parameters:
       - in: path
         name: id

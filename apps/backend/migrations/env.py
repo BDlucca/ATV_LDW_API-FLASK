@@ -59,7 +59,7 @@ def run_migrations_online() -> None:
         poolclass=pool.NullPool,
     )
 
-    with connectable.connect() as connection:
+    with connectable.connect as connection:
         context.configure(
             connection=connection, 
             target_metadata=target_metadata
@@ -71,4 +71,4 @@ def run_migrations_online() -> None:
 if context.is_offline_mode():
     run_migrations_offline()
 else:
-    run_migrations_online()
+    run_migrations_online

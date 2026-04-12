@@ -21,13 +21,13 @@ def get_all():
         description: Detalhes do funcionario
         schema:
           id: 
-            type: int
+          type: int
           name: 
-            type: str
+          type: str
           age: 
-            type: int
+          type: int
           description:
-            active: True
+          active: True
       404:
         description: Funcionario não encontrado
     """
@@ -68,7 +68,7 @@ def create():
     Criar um novo funcionario
     ---
     tags:
-      - Funcionarios
+      - Funcionario
     parameters:
       - in: body
         name: body
@@ -98,7 +98,7 @@ def update(id):
     Atualizar um funcionario existente
     ---
     tags:
-      - Funcionarios
+      - Funcionario
     parameters:
       - in: path
         name: id

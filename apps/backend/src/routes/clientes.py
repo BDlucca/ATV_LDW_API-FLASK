@@ -21,13 +21,13 @@ def get_all():
         description: Detalhes do clientes
         schema:
           id: 
-            type: int
+          type: int
           name: 
-            type: str
+          type: str
           age: 
-            type: int
+          type: int
           total_pagar: 
-            type: int
+          type: int
       404:
         description: Cliente não encontrada
     """
@@ -67,7 +67,7 @@ def create():
     Criar um novo cliente
     ---
     tags:
-      - Clientes
+      - Cliente
     parameters:
       - in: body
         name: body
@@ -97,7 +97,7 @@ def update(id):
     Atualizar um cliente existente
     ---
     tags:
-      - Clientes
+      - Cliente
     parameters:
       - in: path
         name: id
@@ -136,7 +136,7 @@ def delete(id):
     parameters:
       - in: path
         name: id
-          type: integer
+        type: integer
         age: int
         description: ID do registro a ser removido
     responses:
